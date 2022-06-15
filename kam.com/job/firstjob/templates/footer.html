@@ -1,0 +1,33 @@
+{% load static %}
+
+<div class="mt-5" style="background-color:black; width:100%; height:350px">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mt-3">
+        <h3 style="text-decoration: underline;" class="text-success"><b>Contact information</b></h3>
+        <p style=color:white;font-size:18px><i class="fa fa-address-card text-success" aria-hidden="true"></i> :vishnupuri C sector, Nanded</p>
+        <p style=color:white;font-size:18px><i class="fa fa-envelope text-success"></i> :arvindalewad@gmail.com</p>
+        <p style=color:white;font-size:18px><i class="fa fa-volume-control-phone text-success" aria-hidden="true"></i>  :+919765828004 / 7066391483</p>
+        <p style=color:white;font-size:18px><i class="fa fa-globe text-success"></i>  :www.Argo.com</p>
+
+      </div>
+
+<div class="col-md-4 mt-3">
+  <h3 style="text-decoration: underline;" class="text-success"><b>Instant Kam</b></h3>
+  <p style=color:white;font-size:18px>An employment website that deals specially with employment or careers. Many employment websites are designed to allow employers to post requirements for a position to be filled and are commonly known as job boards.</p>
+</div>
+
+<div class="col-md-4 mt-3">
+  <h3 style="text-decoration: underline;"  class="text-success"><b>Newsletter</b></h3>
+  <p style="color:white ; font-size:18px">If you want the any extra information then send me your email id</p>
+  <form class="form-inline" method="post">
+    {% csrf_token %}
+    <input type="email" name="emailid" placeholder="Email Id" required class="form-control mr-2">
+    <input type="submit" value="Send" class="btn btn-success">
+  </form>
+</div>
+
+
+    </div>
+  </div>
+</div>

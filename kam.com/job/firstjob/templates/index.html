@@ -1,0 +1,129 @@
+{% load static %}
+
+
+{% block body %}
+
+{% include 'navigation.html' %}
+
+ <style>
+  .container{
+    max-width:90%
+  }
+  .content{
+  text-align:center;
+  position:absolute;
+  bottom:0;
+  background:rgb(194, 194, 214);
+  color: black;
+  height:30px;
+  width:91%;
+  }
+
+
+
+
+
+
+
+
+</style>
+
+<!-- <link rel="icon" type="image/jpeg" href="/css/master.css"> -->
+
+ <div class="container-fliud" style="margin-top:1%">
+  <img src="{% static 'images/gandhi.jpg' %}" style="height:450px;width:100%">
+
+</div>
+
+
+<!-- try -->
+<!-- <head>
+  <meta charset="utf-8">
+  <title>Sammy’s First Website</title>
+  <link rel="shortcut icon" type="images/logo2.jpeg" href=”Favicon_Image_Location”/>
+</head> -->
+
+<!-- try -->
+
+
+
+
+
+<!-- try -->
+<br>
+
+
+
+
+<div class="container" style="background-color:black; height:570px;margin-top:2%">
+  <h1 class="text-center text-white">----------|These are employers who got the job today |-----------</h1>
+
+
+<div class="row mt-3 ">
+  <div class="col-md-3">
+    <<img src="{% static 'images/applicant.jpeg' %}" style="width:100% ; margin-top:5% ; height : 200px;border-radius:50%">
+            <div class="content" style="height:30px;width:91%">
+              <p>Watchmen</p>
+            </div>
+    </div>
+
+    <div class="col-md-3">
+      <<img src="{% static 'images/applicant.jpeg' %}" style="width:100% ; margin-top:5% ; height : 200px;border-radius:50%">
+              <div class="content" style="height:30px;width:91%">
+                <p>Waiter</p>
+              </div>
+    </div>
+
+    <div class="col-md-3">
+      <<img src="{% static 'images/applicant.jpeg' %}" style="width:100% ; margin-top:5% ; height : 200px;border-radius:50%">
+              <div class="content" style="height:30px;width:91%">
+                <p>Cleaning Worker</p>
+              </div>
+    </div>
+
+    <div class="col-md-3">
+      <<img src="{% static 'images/applicant.jpeg' %}" style="width:100% ; margin-top:5% ; height : 200px;border-radius:50%">
+              <div class="content" style="height:30px;width:91%">
+                <p>Delivery Boy</p>
+              </div>
+    </div>
+
+</div>
+
+
+
+
+<div class="row mt-3">
+<div class="col-md-3">
+  <<img src="{% static 'images/applicant.jpeg' %}" style="width:100% ; margin-top:5% ; height : 200px;border-radius:50%">
+          <div class="content" style="height:30px;width:91%">
+            <p>Restaurant Chef</p>
+          </div>
+  </div>
+
+  <div class="col-md-3">
+    <<img src="{% static 'images/applicant.jpeg' %}" style="width:100% ; margin-top:5% ; height : 200px;border-radius:50%">
+            <div class="content" style="height:30px;width:91%">
+              <p>Baby Sitter</p>
+            </div>
+  </div>
+
+  <div class="col-md-3">
+    <<img src="{% static 'images/applicant.jpeg' %}" style="width:100% ; margin-top:5% ; height : 200px;border-radius:50%">
+            <div class="content" style="height:30px;width:91%">
+              <p>Driver</p>
+            </div>
+  </div>
+
+  <div class="col-md-3">
+    <<img src="{% static 'images/applicant.jpeg' %}" style="width:100% ; margin-top:5% ; height : 200px;border-radius:50%">
+            <div class="content" style="height:30px;width:91%">
+              <p>Photographer</p>
+            </div>
+  </div>
+
+</div>
+{% include 'footer.html' %}
+
+</div>
+{% endblock %}
